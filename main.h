@@ -40,9 +40,9 @@ int synth(const char *format, ...);
 int mic(const char *fmt, int *ind,
 va_list list, char buffer[], int flags, int width, int precision, int size);
 
-/****************** FUNCTIONS ******************/
 
-/* Funtions to print chars and strings */
+
+
 int chrix(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 int gen(va_list types, char buffer[],
@@ -50,7 +50,7 @@ int gen(va_list types, char buffer[],
 int dolf(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
-/* Functions to print numbers */
+
 int ninsaz(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 int buter(va_list types, char buffer[],
@@ -67,29 +67,29 @@ int sizeri(va_list types, char buffer[],
 int ced(va_list types, char map_to[],
 char buffer[], int flags, char flag_ch, int width, int precision, int size);
 
-/* Function to print non printable characters */
+
 int audric(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
-/* Funcion to print memory address */
+
 int sek(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
-/* Funciotns to handle other specifiers */
+
 int shim(const char *format, int *i);
 int mud(const char *format, int *i, va_list list);
 int just(const char *format, int *i, va_list list);
 int jul(const char *format, int *i);
 
-/*Function to print string in reverse*/
+
 int makab(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
-/*Function to print a string in rot 13*/
+
 int kiev(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
-/* width handler */
+
 int ravoin(char c, char buffer[],
 	int flags, int width, int precision, int size);
 int can(int is_positive, int ind, char buffer[],
@@ -103,7 +103,7 @@ int cal(int is_negative, int ind,
 char buffer[],
 	int flags, int width, int precision, int size);
 
-/****************** UTILS ******************/
+
 int mar(char);
 int uway(char, char[], int);
 int mat(char);
