@@ -89,7 +89,7 @@ int makab(va_list types, char buffer[],
 		int flags, int width, int precision, int size)
 {
 char *b;
-int a;
+int a = 0;
 int c = 0;
 char d;
 c = b[a];
