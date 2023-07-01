@@ -7,7 +7,7 @@
 *@list: valist
 *Return: not always 0
 */
-int get_width(const char *format, int *i, va_list list)
+int mud(const char *format, int *i, va_list list)
 {
 int a;
 int b = 0;
