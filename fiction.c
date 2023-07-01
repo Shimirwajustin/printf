@@ -143,7 +143,7 @@ UNUSED(width);
 UNUSED(precision);
 UNUSED(size);
 a = va_arg(types, unsigned int);
-b = 2147483648; 
+b = 2147483648;
 d[0] = a / b;
 for (c = 1; c < 32; c++)
 {

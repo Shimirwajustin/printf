@@ -181,7 +181,7 @@ return (write(1, &buffer[ind], a));
 *Return: not always 0
 */
 int kaba(char buffer[], int ind, int length,
-        int width, int flags, char padd, char extra_c, int padd_start)
+int width, int flags, char padd, char extra_c, int padd_start)
 {
 int a;
 if (width > length)
