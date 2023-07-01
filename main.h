@@ -36,7 +36,7 @@ int (*fn)(va_list, char[], int, int, int, int);
 */
 typedef struct fmt fmt_j;
 
-int synth(const char *format, ...);
+int _printf(const char *format, ...);
 int mic(const char *fmt, int *ind,
 va_list list, char buffer[], int flags, int width, int precision, int size);
 

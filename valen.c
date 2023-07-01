@@ -2,11 +2,11 @@
 
 void mucy(char buffer[], int *buff_ind);
 /**
-*synth- a function
+*_printf - a function
 *@format: a pointer
 *Return: not always 0
 */
-int synth(const char *format, ...)
+int _printf(const char *format, ...)
 {
 int a, b = 0, c = 0;
 int d, e, f, g, h = 0;
