@@ -92,6 +92,7 @@ char *b;
 int a = 0;
 int c = 0;
 char d;
+b = 0;
 c = b[a];
 UNUSED(buffer);
 UNUSED(flags);
