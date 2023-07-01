@@ -91,7 +91,8 @@ int makab(va_list types, char buffer[],
 char *b;
 int a;
 int c = 0;
-char d = b[a];
+char d;
+c = b[a];
 UNUSED(buffer);
 UNUSED(flags);
 UNUSED(width);
