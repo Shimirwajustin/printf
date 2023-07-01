@@ -133,8 +133,9 @@ return (can(b, a, buffer, flags, width, precision, size));
 int buter(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
-unsigned int a, b, c, add;
+unsigned int a, b, add;
 unsigned int d[32];
+unsigned int c;
 int f;
 char z = '0' + d[c];
 UNUSED(buffer);
