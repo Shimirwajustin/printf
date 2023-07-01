@@ -137,8 +137,6 @@ unsigned int a, b, add;
 unsigned int d[32];
 unsigned int c;
 int f;
-c = 0;
-char z = '0' + d[c];
 UNUSED(buffer);
 UNUSED(flags);
 UNUSED(width);
@@ -157,6 +155,7 @@ for (c = 0, add = 0, f = 0; c < 32; c++)
 add += d[c];
 if (add || c == 31)
 {
+char z = '0' + d[c];
 write(1, &z, 1);
 f++;
 }
