@@ -137,6 +137,7 @@ unsigned int a, b, add;
 unsigned int d[32];
 unsigned int c;
 int f;
+c = 0;
 char z = '0' + d[c];
 UNUSED(buffer);
 UNUSED(flags);
